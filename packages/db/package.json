@@ -1,0 +1,20 @@
+{
+  "name": "@streamverse/db",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "@faker-js/faker": "^8.4.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0",
+    "typescript": "^5.5.2",
+    "ts-node": "^10.9.2",
+    "dotenv": "^16.4.5"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}

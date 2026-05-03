@@ -1,0 +1,6 @@
+{
+  "name": "@streamverse/worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Python worker placeholder for workspace structure"
+}

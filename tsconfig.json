@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@streamverse/db": ["packages/db/index.ts"],
+      "@streamverse/types": ["packages/types/index.ts"],
+      "@streamverse/ui/*": ["packages/ui/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", ".next", ".expo"]
+}
